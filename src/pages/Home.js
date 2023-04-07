@@ -2,7 +2,7 @@ import React from 'react';
 import Testimonials from '../components/Testimonials';
 import reviews from '../Data'
 import { Typewriter } from 'react-simple-typewriter'
-import { useState } from 'react'
+
 import image from '../assets/never-stop-learning-ga27d8f31f_1280.jpg'
 import Bigfeatures from '../components/Home/Bigfeatures';
 import logo1 from '../components/Home/asset 28.png'
@@ -17,7 +17,7 @@ function Home() {
   return (
     <div className='bg-richblack-800 relative'>
       <header>
-      <div className='flex justify-center items-center justify-between gap-[60px] max-w-[1160px] mx-auto overflow-hidden py-[60px]'>
+      <div className='flex items-center justify-between gap-[60px] max-w-[1160px] mx-auto overflow-hidden py-[60px]'>
         <div className="max-w-[40vw]">
           <h1 className='mt-[36px] text-blue-300 font-light text-4xl'>Learn confidently 
           <span className='font-thin font-mono text-blue-100 text-5xl'>

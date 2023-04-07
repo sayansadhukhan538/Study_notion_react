@@ -41,8 +41,8 @@ function Template({title, desc1, desc2, image, formtype, setIslogin,}) {
 
         <div
         className='relative w-11/12 max-w-[450px]'>
-            <img src={frameImage} alt="frame-image" className='under-image' width={558} height={504} loading='lazy' />
-            <img src={image} alt="frame-image"  width={558} height={490} loading='lazy'
+            <img src={frameImage} alt="frame-image1" className='under-image' width={558} height={504} loading='lazy' />
+            <img src={image} alt="frame-images"  width={558} height={490} loading='lazy'
             className='absolute top-6 right-5 upper-image' />
         </div>
 

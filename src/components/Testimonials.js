@@ -23,7 +23,7 @@ function Testimonials(props) {
          return()=>{
              clearInterval(slider);
          }
-     },[index])
+     },)
 
 
 
