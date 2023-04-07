@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    overflow-x: hidden;
+}
+.hero-image{
+    filter:grayscale(1);
+    transition: all 1.2s;
+    animation: scaleImage 3s linear infinite;
+}
+@keyframes scaleImage {
+
+    0%{
+        filter: grayscale(0);
+        transform: scale(1);
+    }
+    50%{
+        filter: grayscale(1);
+        transform: scale(1.15);
+        box-shadow: 0px 0px 15px black;
+    }
+    100%{
+        filter: grayscale(0);
+        transform: scale(1);
+    }
+    
+}
+.under-image{
+    
+    transition: all 1.2s;
+    animation: underImage 3s linear infinite;
+}
+@keyframes underImage {
+
+    
+    50%{
+        filter: grayscale(1);
+        transform: translateX(10px);
+        
+    } 
+    
+}
+.upper-image{
+    transition: all 1.2s;
+    animation: upperImage 3s linear infinite;
+}
+@keyframes upperImage {
+
+    
+    50%{
+        filter: grayscale(1);
+        transform: translateX(-10px);
+        
+        
+    } 
+    
+}
