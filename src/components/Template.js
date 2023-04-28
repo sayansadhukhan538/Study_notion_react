@@ -33,7 +33,7 @@ function Template({title, desc1, desc2, image, formtype, setIslogin,}) {
                 <FcGoogle />
                 <p>{formtype === 'signup'?(<span>Sign up</span>):(<span>Sign in</span>)} with Google Account</p></button>
             <br />
-            <button className='w-full flex justify-center items-center rounded-[8px] font-medium text-richblack-100 border border-richblack-200 px-[12px] py-[8px] gap-x-2'>
+            <button className='w-full flex justify-center items-center rounded-[8px] font-medium text-richblack-100 border border-richblack-200 px-[12px] mb-6 py-[8px] gap-x-2'>
                 <GrApple/>
                 <p>{formtype === 'signup'?(<span>Sign up</span>):(<span>Sign in</span>)} with Apple ID</p></button>
                 </div>
