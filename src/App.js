@@ -12,7 +12,7 @@ function App() {
 
   const[isLogin, setIslogin] = useState(false);
   return(
-    <div className="w-screen h-screen bg-richblack-800 flex flex-col">
+    <div className="w-screen min-h-screen bg-richblack-800 flex flex-col">
       <Navbar isLogin={isLogin} setIslogin={setIslogin}/>
 
       <Routes>
